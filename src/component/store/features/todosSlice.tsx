@@ -48,7 +48,7 @@ export const todosSlice = createSlice({
             state.splice(destinationIndex, 0, moved);
         },
 
-        setTodos: (state, action: PayloadAction<Todo[]>) => {
+        setTodos: (_state, action: PayloadAction<Todo[]>) => {
             return action.payload;
         }
 
