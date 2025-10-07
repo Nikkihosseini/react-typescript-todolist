@@ -1,7 +1,7 @@
  import { createSlice } from "@reduxjs/toolkit";
  import type { PayloadAction } from "@reduxjs/toolkit";
 
-
+// types
 interface Todo {
   id: string;
   text: string;
