@@ -1,4 +1,4 @@
-import ToDoApp from './Pages/ToDoApp';
+import ToDoApp from './pages/ToDoApp';
 import { store } from './component/store/store';
 import { Provider } from 'react-redux';
 import './index.css';
